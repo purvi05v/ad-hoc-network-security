@@ -5,8 +5,6 @@
 ## Overview
 This project is an implementation of the **Clustering K-Anonymity (CKA)** protocol, designed to secure location data in Vehicular Ad-hoc Networks (VANETs). It mitigates "narrow region attacks" by dynamically generating virtual (dummy) nodes to blend with real user coordinates.
 
-![Dashboard Demo](demo_screenshot.png)
-
 This tool allows researchers and security engineers to:
 - **Simulate** eavesdropping attacks on ad-hoc networks.
 - **Visualize** the dynamic clustering algorithm in real-time.
