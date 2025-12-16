@@ -12,8 +12,6 @@ import numpy as np
 import streamlit as st
 import plotly.graph_objects as go
 
-# Utility functions
-
 def sector_index(center: Tuple[float, float], point: Tuple[float, float], n_sectors: int) -> int:
     """
     Assign a point to one of N angular sectors (0..N-1) around center, clockwise from +x axis.
